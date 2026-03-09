@@ -1,4 +1,4 @@
-# yvd
+# yt-vid-dl
 
 Simple YouTube video/playlist downloader CLI.
 
@@ -7,11 +7,17 @@ Simple YouTube video/playlist downloader CLI.
 ```bash
 python main.py "https://youtube.com/watch?v=..."
 python main.py "https://youtube.com/playlist?list=..." -d ~/Videos
+python main.py "https://youtube.com/watch?v=..." -f mp4
 ```
 
 ## Options
 
 - `-d, --dir` : Target directory (default: current directory)
+- `-f, --format` : Video format (default: best)
+  - `best` - best quality (default)
+  - `worst` - lowest quality
+  - `mp4`, `webm` - specific container
+  - `bestvideo+bestaudio/best` - combined format
 
 ## Installation
 
