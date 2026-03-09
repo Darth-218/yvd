@@ -1,4 +1,4 @@
-# yt-vid-dl
+# yvd
 
 Simple YouTube video/playlist downloader CLI.
 
